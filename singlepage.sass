@@ -1,0 +1,141 @@
+
+@import styleShopingcart.sass
+
+.sectionOfProduct
+    background-color: #f7f7f7
+
+    display: flex
+    justify-content: center
+    border: 1px solid $bd-color
+
+.pinkStick
+    width: 63px
+    height: 3px
+    background-color: #ef5b70
+    align-self: center
+    margin-top: 14px
+    margin-bottom: 17px
+
+.description
+    display: flex
+    flex-direction: column
+    text-align: center
+    width: 60%
+    padding-bottom: 43px
+    border-bottom: 1px solid $bd-color
+    h2
+        font-family: Lato
+        font-size: 18px
+        line-height: 24px
+        font-weight: 900
+        text-transform: uppercase
+        color: #4d4d4d
+
+    .pink
+        font-family: Lato
+        font-size: 14px
+        line-height: 24px
+        font-weight: 700
+        padding-bottom: 18.5px
+
+        border-bottom: 1px solid $bd-color
+    .paragraph
+        margin-top: 67px
+        margin-bottom: 28px
+    .materials
+        display: flex
+        justify-content: space-around
+        .matPar
+            font-family: Lato
+            font-size: 14px
+            line-height: 24px
+            font-weight: 700
+            color: #b9b9b9
+            .legend
+                margin-bottom: 0
+    .pinkPrice
+        color: $pink
+        font-family: Lato
+        font-size: 24px
+        line-height: 24px
+        font-weight: 700
+        margin-top: 37px
+
+.prdDesc
+    position: relative
+    z-index: auto
+    margin-bottom: 120px
+    &_pos
+        flex-direction: column
+        align-items: center
+        margin-top: -50px
+        padding-top: 73px
+
+    .container
+        border: 1px solid $bd-color
+        background-color: #fff
+
+.characteristics
+    width: 60%
+    display: flex
+    justify-content: space-around
+    margin-top: 63px
+    margin-bottom: 28px
+
+.formPrd
+    width: 144px
+    height: 35px
+    border: 1px solid $bd-color
+    appearance: none
+    font-family: Lato
+    font-size: 13px
+    line-height: 24px
+    font-weight: 400
+    color: #bcbcbc
+    padding-left: 12px
+
+.quantity_formPrd
+    width: 144px
+    height: 35px
+    border: 1px solid $bd-color
+    text-align: start
+    font-family: Lato
+    font-size: 13px
+    line-height: 24px
+    font-weight: 400
+    color: #bcbcbc
+    padding-left: 12px
+
+.prdBut
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 53%
+    height: 55px
+    border: 1px solid $pink
+    color: $pink
+    background-color: #fff
+    font-family: Lato
+    font-size: 16px
+    line-height: 1.2
+    font-weight: 700
+    transition: all 0.2s
+    margin-bottom: 122px
+
+.prdBut:hover
+    border: 1px solid transparent
+    background-color: $pink
+    color: #fff
+
+.youMayAlsoLike
+    &_pos
+        flex-direction: column
+        align-items: center
+    h2
+        font-family: Lato
+        font-size: 24px
+        line-height: 20px
+        font-weight: 900
+        text-transform: uppercase
+        color: #4d4d4d
+        margin-bottom: 72px
