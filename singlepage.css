@@ -1,0 +1,487 @@
+@import url(style.css);
+.arrivals {
+  background-color: #f8f3f4;
+  padding: 65px 0 65px;
+}
+
+.shopLink {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #636363;
+  text-decoration: none;
+}
+
+.shopLink:hover {
+  color: #f16d7f;
+}
+
+.headingArr {
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.cartCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 22px 0 22px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cardInf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quantity {
+  width: 54px;
+  height: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  -webkit-appearance: textfield;
+}
+
+.cartCont {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+  padding: 90px 0 20px;
+}
+
+.infCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  color: #222222;
+}
+
+.infCont_pos {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cardDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card_pos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cartCard_txt {
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6f6e6e;
+}
+
+.cartCard_span {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 900;
+  color: #575757;
+}
+
+.cartCardButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.fieldset {
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.legend {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 22px;
+}
+
+.legendPar {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #000000;
+}
+
+.fldForma {
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #b1b1b1;
+  width: 355px;
+  padding: 18px 0 18px 18px;
+  border: 1px solid #eaeaea;
+  -webkit-appearance: textfield;
+  margin-bottom: 20px;
+}
+
+.fldBut {
+  font-family: Lato;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  width: 100px;
+  height: 35px;
+  margin-top: 22px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.fldBut:hover {
+  color: #fff;
+  border: 1px solid #4a4a4a;
+  background-color: #4a4a4a;
+}
+
+.form_pos {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 79px;
+}
+
+.action {
+  color: #c0c0c0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.action:hover {
+  color: #6f6e6e;
+}
+
+.grandTotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: end;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 17px;
+  padding-bottom: 22px;
+}
+
+.par {
+  font-family: Lato;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.grandPar {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #222222;
+}
+
+.fieldsetButton {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f16d7f;
+  border: 1px solid transparent;
+  padding: 19px 42px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.fieldsetButton:hover {
+  background-color: #fff;
+  color: #f16d7f;
+  border: 1px solid #f16d7f;
+}
+
+.fieldset_bgcAndPadd {
+  background-color: #f5f3f3;
+  padding: 42px;
+  height: 75%;
+}
+
+.sectionOfProduct {
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #eaeaea;
+}
+
+.pinkStick {
+  width: 63px;
+  height: 3px;
+  background-color: #ef5b70;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 14px;
+  margin-bottom: 17px;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 60%;
+  padding-bottom: 43px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.description h2 {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #4d4d4d;
+}
+
+.description .pink {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 18.5px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.description .paragraph {
+  margin-top: 67px;
+  margin-bottom: 28px;
+}
+
+.description .materials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.description .materials .matPar {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #b9b9b9;
+}
+
+.description .materials .matPar .legend {
+  margin-bottom: 0;
+}
+
+.description .pinkPrice {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-top: 37px;
+}
+
+.prdDesc {
+  position: relative;
+  z-index: auto;
+  margin-bottom: 120px;
+}
+
+.prdDesc_pos {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -50px;
+  padding-top: 73px;
+}
+
+.prdDesc .container {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+}
+
+.characteristics {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 63px;
+  margin-bottom: 28px;
+}
+
+.formPrd {
+  width: 144px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bcbcbc;
+  padding-left: 12px;
+}
+
+.quantity_formPrd {
+  width: 144px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  text-align: start;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bcbcbc;
+  padding-left: 12px;
+}
+
+.prdBut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 53%;
+  height: 55px;
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
+  background-color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin-bottom: 122px;
+}
+
+.prdBut:hover {
+  border: 1px solid transparent;
+  background-color: #f16d7f;
+  color: #fff;
+}
+
+.youMayAlsoLike_pos {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.youMayAlsoLike h2 {
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  margin-bottom: 72px;
+}
+/*# sourceMappingURL=singlepage.css.map */
