@@ -1,0 +1,196 @@
+
+@import styleShopingcart.sass
+@import @singlepage.sass
+
+.mainSection
+    margin-top: 59px
+    margin-bottom: 109px
+
+.sortBy
+    display: flex
+    padding: 10px
+    background-color: #f3f3f3
+    margin-bottom: 48px
+    .sortByCont
+        display: flex
+        margin-right: 10px
+
+.sortByCont:first-of-type
+    margin-right: 10px
+
+.productPart
+    display: flex
+    flex-direction: column
+
+.product_items
+    flex-wrap: wrap
+    justify-content: space-between
+
+    .productCard
+        margin-right: 0
+        margin-bottom: 35px
+
+.product_characteristics
+    display: flex
+    justify-content: space-between
+    margin-bottom: 40px
+
+.menus
+    margin-right: 51px
+
+.product_details
+    .partOfMenu
+        padding: 15px
+
+.product_sum
+    width: 243px
+    border-left: 5px solid $pink
+    border-bottom: 1px solid $bd-color
+    padding: 14px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 18px
+
+.product_sum::-webkit-details-marker
+    display: none
+
+.product_details[open] .product_sum
+    color: $pink
+
+.fa-caret-down
+    transition: all 0.2s
+
+.product_details[open] .fa-caret-down
+    transform: rotate(180deg)
+
+.trending
+    .trendHeading
+        margin-bottom: 25px
+
+.trendHeading
+    font-family: Lato
+    font-size: 14px
+    line-height: 20px
+    font-weight: 700
+    text-transform: uppercase
+    color: #6f6e6e
+
+.trendLink
+    font-family: Lato
+    font-size: 14px
+    line-height: 26px
+    font-weight: 400
+    color: #6f6e6e
+    text-decoration: none
+    transition: all 0.2s
+
+.trendLink:hover
+    color: $pink
+
+.trendingLinks:last-of-type
+    display: flex
+    justify-content: space-between
+    flex-direction: row-reverse
+
+.size
+    display: flex
+    flex-direction: column
+    .firstPart
+        display: flex
+        justify-content: space-between
+        margin-top: 26px
+        margin-bottom: 10px
+    .secondPart
+        display: flex
+        justify-content: space-around
+
+.blockSort
+    background-color: #ffffff
+    border: 1px solid #ebebeb
+    .sortHead
+        font-family: Lato
+        font-size: 14px
+        line-height: 26px
+        font-weight: 400
+        color: #6f6e6e
+        padding-left: 8px
+        padding-right: 8px
+
+.labelTrend
+    margin-right: 25px
+    font-family: 'Lato'
+    font-size: 14px
+    line-height: 20px
+    font-weight: 400
+    text-transform: uppercase
+    color: #6f6e6e
+    transition: all 0.2s
+
+.labelTrend:hover
+    color: $pink
+
+.selectTrend
+    border: 1px solid $bd-color
+    padding-left: 8px
+    padding-right: 8px
+
+.viewAll
+    display: flex
+    justify-content: space-between
+    .navigationRow
+        display: flex
+        list-style: none
+        background-color: #ffffff
+        border: 1px solid #ebebeb
+        border-radius: 3px
+        padding: 10px
+        .navigationLink
+            padding: 10px
+            text-decoration: none
+            font-family: Lato
+            font-size: 16px
+            line-height: 26px
+            font-weight: 700
+            color: #c4c4c4
+            transition: all 0.2s
+            .navigationLink:hover
+                color: $pink
+
+.viewAllBut
+    background-color: #ffffff
+    border: 1px solid #ef5b70
+    border-radius: 3px
+    width: 150px
+    height: 44px
+    font-family: Lato
+    font-size: 16px
+    line-height: 26px
+    font-weight: 700
+    color: $pink
+    transition: all 0.2s
+
+.viewAllBut:hover
+    color: #fff
+    border: 1px solid $pink
+    background-color: $pink
+
+.delSalesDisc
+    background-color: #222224
+
+.delSalesDisc-item
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-top: 89px
+    padding-bottom: 114px
+    margin-right: 81px
+    .headingOfSD
+        text-align: center
+        margin-top: 32px
+        margin-bottom: 17px
+    .SDParagraph
+        text-align: center
+
+.delSalesDisc-item:last-of-type
+    margin-right: 0
